@@ -14,6 +14,12 @@
 - 內建比例趨勢圖與 Dashboard 模式，便於課堂現場快速掌握狀態。
 - 可隱藏影像預覽，降低現場干擾。
 
+## 使用者介面展示
+
+![課堂聽眾專注度分析主要操作介面](UI1.jpg)
+
+![課堂聽眾專注度分析 Dashboard 與結果展示](UI2.jpg)
+
 ## 系統需求
 
 - 現代瀏覽器：建議使用 Chrome 或 Edge。
@@ -150,6 +156,8 @@ http://localhost:8000/聽眾分析.html
 
 ```text
 .
+├── UI1.jpg
+├── UI2.jpg
 ├── index.html
 ├── README.md
 └── 聽眾分析.html
