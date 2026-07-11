@@ -1,6 +1,6 @@
 # 課堂聽眾專注度分析
 
-`聽眾分析.html` 是一個單檔網頁工具，可透過瀏覽器鏡頭定時擷取課堂畫面，呼叫支援 Responses API 格式的視覺模型，估算聽眾總人數、疑似不專心人數、使用手機人數與比例趨勢。
+`index.html` 是一個單檔網頁工具，可透過瀏覽器鏡頭定時擷取課堂畫面，呼叫支援 Responses API 格式的視覺模型，估算聽眾總人數、疑似不專心人數、使用手機人數與比例趨勢。
 
 本工具只在頁面中保留數字與文字摘要，不會把照片保存到本機頁面紀錄中。分析結果適合作為課堂觀察輔助，不應用於個人評分、紀律處分或身分辨識。
 
@@ -17,6 +17,10 @@
 ## 使用者介面展示
 
 ![課堂聽眾專注度分析 Dashboard 與結果展示](UI2.jpg)
+
+## 線上使用
+
+GitHub Pages：https://chichingleetw.github.io/audience-analysis/
 
 ## 系統需求
 
@@ -56,10 +60,8 @@ python3 -m http.server 8000
 啟動後在瀏覽器開啟：
 
 ```text
-http://localhost:8000/聽眾分析.html
+http://localhost:8000/
 ```
-
-如果檔名在瀏覽器中無法直接輸入，可從目錄列表點選 `聽眾分析.html`。
 
 ## 使用流程
 
@@ -132,7 +134,7 @@ http://localhost:8000/聽眾分析.html
 
 - 請確認瀏覽器已允許攝影機權限。
 - 請使用 Chrome 或 Edge。
-- 請透過 `http://localhost:8000/聽眾分析.html` 或 HTTPS 開啟。
+- 請透過 `http://localhost:8000/` 或 HTTPS 開啟。
 - 若使用 USB camera，先按 **開啟鏡頭**，再按 **重新掃描鏡頭**。
 
 ### 看不到 USB camera 名稱
@@ -157,8 +159,7 @@ http://localhost:8000/聽眾分析.html
 ├── UI2.jpg
 ├── index.html
 ├── LICENSE
-├── README.md
-└── 聽眾分析.html
+└── README.md
 ```
 
 ## 授權
