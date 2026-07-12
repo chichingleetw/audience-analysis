@@ -20,7 +20,7 @@
 
 ## 線上使用
 
-GitHub Pages：https://chichingleetw.github.io/audience-analysis/
+GitHub Pages：https://educatres.github.io/audience-analysis/
 
 ## 系統需求
 
